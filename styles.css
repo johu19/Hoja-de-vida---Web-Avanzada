@@ -1,0 +1,178 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#first_bar{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #525252;
+    height: 25px;
+    text-transform: uppercase;
+}
+
+#last_bar{
+    margin-top: 2%;
+    background-color: #525252;
+    height: 25px;
+}
+
+.margin{
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.margin_icon{
+    margin-left: 2%;
+    margin-right: 1%;
+}
+
+#image{
+    margin-top: 5%;
+    margin-left: 10%;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.horizontal_align{
+    display: inline-block; 
+}
+
+.vertical_align{
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+#background{
+    background-color: #EBEBEB;
+    
+}
+
+#name{
+    font-size: 35px;
+    color: #5095CB;
+    text-align: center;
+}
+
+#last_name{
+    font-size:  45px;
+    color: black;
+    text-align: center
+}
+
+#complete_title{
+    
+    width: 50%;
+    vertical-align: top;    
+    margin-top: 7.5%;
+        
+}
+
+#main_info{
+    width: 45%;
+    text-align: center;
+}
+
+#job{
+    font-size: 25px;
+    color: #525252;
+}
+
+.areas{
+    text-align: center;
+    color: #0871C4;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.subs_icons{
+    color: #0871C4;
+}
+
+.red_icons{
+    color: red
+}
+
+#left{
+    
+    width: 45%;
+    margin-top: 6%;
+    margin-right: 3%;
+    height: auto;
+    vertical-align: top;
+}
+
+#right{
+    vertical-align: top;
+    width: 40%;
+    margin-top: 6%;
+    margin-left: 3%;
+    height: auto;
+}
+
+.blue_sub{
+    font-size: 15px;
+    color: #5095CB;
+}
+
+.plain_text{
+    color: #525252;
+    font-size: 15px;
+}
+
+
+
+#exp_laboral{
+    display: flex;
+}
+
+.vertical_display{
+    display: run-in;
+}
+
+.hard_align{
+    margin-top: 100px;
+}
+
+.margin_top{
+    margin-top: 5%;
+}
+
+.circles{
+    width: 200px;
+    vertical-align: top;
+}
+
+.vertical_top{
+    vertical-align: top;
+}
+
+.margin_left{
+    margin-left: 10%;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
